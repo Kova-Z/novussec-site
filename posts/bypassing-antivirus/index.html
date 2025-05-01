@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.147.0"><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>NovusSec</title>
-
-<meta name="description" content="">
+<title>Bypassing Antivirus with Obfuscated Digispark Payloads | NovusSec</title>
+<meta name="keywords" content="redteam, usb, digispark, AV-evasion">
+<meta name="description" content="In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders&hellip;">
 <meta name="author" content="">
-<link rel="canonical" href="https://kova-z.github.io/novussec-site/">
+<link rel="canonical" href="https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/">
 <link crossorigin="anonymous" href="/novussec-site/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://kova-z.github.io/novussec-site/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://kova-z.github.io/novussec-site/favicon-16x16.png">
@@ -19,8 +18,7 @@
 <link rel="mask-icon" href="https://kova-z.github.io/novussec-site/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://kova-z.github.io/novussec-site/index.xml">
-<link rel="alternate" hreflang="en" href="https://kova-z.github.io/novussec-site/">
+<link rel="alternate" hreflang="en" href="https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,31 +27,76 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://kova-z.github.io/novussec-site/">
+</noscript><meta property="og:url" content="https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/">
   <meta property="og:site_name" content="NovusSec">
-  <meta property="og:title" content="NovusSec">
+  <meta property="og:title" content="Bypassing Antivirus with Obfuscated Digispark Payloads">
+  <meta property="og:description" content="In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders…">
   <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-30T00:00:00+00:00">
+    <meta property="article:tag" content="Redteam">
+    <meta property="article:tag" content="Usb">
+    <meta property="article:tag" content="Digispark">
+    <meta property="article:tag" content="AV-Evasion">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NovusSec">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Bypassing Antivirus with Obfuscated Digispark Payloads">
+<meta name="twitter:description" content="In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders&hellip;">
+
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "NovusSec",
-  "url": "https://kova-z.github.io/novussec-site/",
-  "description": "",
-  "logo": "https://kova-z.github.io/novussec-site/favicon.ico",
-  "sameAs": [
-      
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://kova-z.github.io/novussec-site/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Bypassing Antivirus with Obfuscated Digispark Payloads",
+      "item": "https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/"
+    }
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Bypassing Antivirus with Obfuscated Digispark Payloads",
+  "name": "Bypassing Antivirus with Obfuscated Digispark Payloads",
+  "description": "In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders\u0026hellip;\n",
+  "keywords": [
+    "redteam", "usb", "digispark", "AV-evasion"
+  ],
+  "articleBody": "In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders…\n",
+  "wordCount" : "23",
+  "inLanguage": "en",
+  "datePublished": "2025-04-30T00:00:00Z",
+  "dateModified": "2025-04-30T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "NovusSec",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kova-z.github.io/novussec-site/favicon.ico"
+    }
+  }
 }
 </script>
 </head>
 
-<body class="list dark" id="top">
+<body class=" dark" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
@@ -107,45 +150,31 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Welcome to NovusSec</h1>
-    </header>
-    <div class="entry-content">
-        Red Team Ops. Cyber Intelligence. Freelance Security.
-    </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Bypassing Antivirus with Obfuscated Digispark Payloads
+    </h1>
+    <div class="post-meta"><span title='2025-04-30 00:00:00 +0000 UTC'>April 30, 2025</span>&nbsp;·&nbsp;1 min
+
 </div>
+  </header> 
+  <div class="post-content"><p>In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders&hellip;</p>
 
-    </footer>
-</article>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Bypassing Antivirus with Obfuscated Digispark Payloads
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders…
-</p>
   </div>
-  <footer class="entry-footer"><span title='2025-04-30 00:00:00 +0000 UTC'>April 30, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Bypassing Antivirus with Obfuscated Digispark Payloads" href="https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/"></a>
-</article>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Welcome to NovusSec
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is your first official post on a fully functional Hugo &#43; PaperMod site. Let’s build something epic.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-04-30 00:00:00 +0000 UTC'>April 30, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Welcome to NovusSec" href="https://kova-z.github.io/novussec-site/posts/welcome/"></a>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://kova-z.github.io/novussec-site/tags/redteam/">Redteam</a></li>
+      <li><a href="https://kova-z.github.io/novussec-site/tags/usb/">Usb</a></li>
+      <li><a href="https://kova-z.github.io/novussec-site/tags/digispark/">Digispark</a></li>
+      <li><a href="https://kova-z.github.io/novussec-site/tags/av-evasion/">AV-Evasion</a></li>
+    </ul>
+  </footer>
 </article>
     </main>
     
