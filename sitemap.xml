@@ -2,41 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kova-z.github.io/novussec-site/contact/</loc>
+    <loc>https://novussec.com/</loc>
     <lastmod>2025-04-30T19:31:40-05:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/</loc>
-    <lastmod>2025-04-30T19:31:40-05:00</lastmod>
-  </url><url>
-    <loc>https://kova-z.github.io/novussec-site/services/</loc>
-    <lastmod>2025-04-30T19:31:40-05:00</lastmod>
-  </url><url>
-    <loc>https://kova-z.github.io/novussec-site/tags/av-evasion/</loc>
+    <loc>https://novussec.com/tags/av-evasion/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/</loc>
+    <loc>https://novussec.com/posts/bypassing-antivirus/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/tags/digispark/</loc>
+    <loc>https://novussec.com/tags/digispark/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/posts/</loc>
+    <loc>https://novussec.com/posts/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/tags/redteam/</loc>
+    <loc>https://novussec.com/tags/redteam/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/tags/</loc>
+    <loc>https://novussec.com/tags/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/tags/usb/</loc>
+    <loc>https://novussec.com/tags/usb/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/posts/welcome/</loc>
+    <loc>https://novussec.com/posts/welcome/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/about/</loc>
+    <loc>https://novussec.com/about/</loc>
   </url><url>
-    <loc>https://kova-z.github.io/novussec-site/categories/</loc>
+    <loc>https://novussec.com/categories/</loc>
   </url>
 </urlset>
