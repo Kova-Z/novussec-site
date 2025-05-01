@@ -29,5 +29,12 @@
       <guid>https://novussec.com/about/</guid>
       <description>&lt;p&gt;Welcome to NovusSec. I&amp;rsquo;m a freelance cybersecurity operator focused on red teaming, OSINT, and adversarial tooling. This site documents my work and offers ways to collaborate.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Contact</title>
+      <link>https://novussec.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://novussec.com/contact/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
