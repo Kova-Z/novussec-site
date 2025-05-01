@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AV-Evasion on NovusSec</title>
-    <link>https://novussec.com/tags/av-evasion/</link>
+    <link>https://kova-z.github.io/novussec-site/tags/av-evasion/</link>
     <description>Recent content in AV-Evasion on NovusSec</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://novussec.com/tags/av-evasion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kova-z.github.io/novussec-site/tags/av-evasion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bypassing Antivirus with Obfuscated Digispark Payloads</title>
-      <link>https://novussec.com/posts/bypassing-antivirus/</link>
+      <link>https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/</link>
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://novussec.com/posts/bypassing-antivirus/</guid>
+      <guid>https://kova-z.github.io/novussec-site/posts/bypassing-antivirus/</guid>
       <description>&lt;p&gt;In this lab, I used a Digispark device to deliver a payload that bypasses Windows Defender using base64 obfuscation and staged PowerShell downloaders&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
